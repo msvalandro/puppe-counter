@@ -4,7 +4,8 @@
 	"description": "A counter for the times when Puppe says that São Paulo is better than Porto Alegre",
 	"main": "app.js",
 	"scripts": {
-		"start": "nodemon app"
+		"start": "nodemon app",
+		"deploy": "gcloud app deploy"
 	},
 	"author": "",
 	"license": "ISC",
